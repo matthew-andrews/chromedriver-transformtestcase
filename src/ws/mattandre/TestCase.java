@@ -24,7 +24,7 @@ public class TestCase {
 		if (controlEl.isDisplayed()) {
 			System.out.println("#control has been found, and it's displayed.  Carry on.");
 		} else {
-			System.out.println("Something has gone very wrong.  Can't find #window.");
+			System.out.println("Something has gone very wrong.  Can't find #control.");
 		}
 		
 		// Test offsetting via negative margins
